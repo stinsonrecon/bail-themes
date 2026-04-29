@@ -57,7 +57,9 @@
       "type": "SWIPE_UP_CHEVRONS",
       "color": "#80FFFFFF",
       "targetButton": "ACCEPT",
-      "verticalOffsetDp": 12
+      "verticalOffsetDp": 12,
+      "animation": "SLIDE_UP_FADE",
+      "animationDurationMs": 1400
     },
     "reject": {
       "shape": "CIRCLE",
@@ -66,7 +68,8 @@
       "iconAsset": "themes/whatsapp/ic_reject.svg",
       "iconColor": "#FFFFFFFF",
       "labelText": "Từ chối",
-      "animation": "NONE"
+      "animation": "NONE",
+      "gesture": "TAP"
     },
     "accept": {
       "shape": "CIRCLE",
@@ -75,7 +78,9 @@
       "iconAsset": "themes/whatsapp/ic_accept.svg",
       "iconColor": "#FFFFFFFF",
       "labelText": "Vuốt lên để chấp nhận",
-      "animation": "PULSE"
+      "animation": "PULSE",
+      "gesture": "SWIPE_UP",
+      "swipeThresholdDp": 80
     },
     "tertiary": {
       "shape": "CIRCLE",
@@ -84,7 +89,8 @@
       "iconAsset": "themes/whatsapp/ic_message.svg",
       "iconColor": "#FFFFFFFF",
       "labelText": "Nhắn tin",
-      "animation": "NONE"
+      "animation": "NONE",
+      "gesture": "TAP"
     }
   },
   "connectedBgColor": "#0F1217"
