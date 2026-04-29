@@ -2,8 +2,11 @@
   "schemaVersion": 1,
   "id": "whatsapp",
   "background": {
-    "type": "solid",
-    "color": "#0F1217"
+    "type": "patterned_solid",
+    "color": "#0F1217",
+    "patternAsset": "themes/whatsapp/doodle.png",
+    "patternOpacity": 0.13,
+    "patternTint": null
   },
   "brandGlyph": {
     "assetPath": "themes/whatsapp/glyph.svg",
@@ -12,24 +15,50 @@
   "avatar": {
     "shape": "CIRCLE",
     "sizeDp": 190,
-    "verticalBias": 0.47
+    "verticalBias": 0.47,
+    "placeholder": {
+      "type": "INITIAL_LETTER",
+      "bgColor": "#D4E4F8",
+      "fgColor": "#2761C5",
+      "fontSizeRatio": 0.45
+    }
   },
   "callerName": {
     "text": "@caller_name",
-    "color": "#FFFFFFFF",
-    "sizeSp": 30,
-    "weight": "BOLD"
-  },
-  "callerSubtitle": {
-    "text": "WhatsApp voice call",
-    "color": "#B0FFFFFF",
-    "sizeSp": 14,
+    "color": "#00000000",
+    "sizeSp": 1,
     "weight": "REGULAR"
+  },
+  "callerInfo": {
+    "position": "TOP",
+    "verticalBias": 0.145,
+    "primary": {
+      "text": "@caller_number",
+      "color": "#FFFFFFFF",
+      "sizeSp": 30,
+      "weight": "BOLD"
+    },
+    "secondary": {
+      "prefixGlyph": {
+        "assetPath": "themes/whatsapp/glyph.svg",
+        "sizeDp": 14
+      },
+      "parts": ["~ ", "@caller_name"],
+      "color": "#B0FFFFFF",
+      "sizeSp": 14,
+      "weight": "REGULAR"
+    }
   },
   "buttons": {
     "layout": "HORIZONTAL_TRIPLE",
     "gapDp": 24,
     "verticalBiasFromBottom": 0.10,
+    "gestureHint": {
+      "type": "SWIPE_UP_CHEVRONS",
+      "color": "#80FFFFFF",
+      "targetButton": "ACCEPT",
+      "verticalOffsetDp": 12
+    },
     "reject": {
       "shape": "CIRCLE",
       "sizeDp": 64,
