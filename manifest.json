@@ -14,7 +14,7 @@
       "version": 1,
       "url": "instagram/instagram.json",
       "sigUrl": "instagram/instagram.json.sig",
-      "sha256": "7afff1b3f1da9b94e21c4a0141d479276df2385ce7218fec0773d98423a39bc0"
+      "sha256": "2b49ef89f0998162f672062b2cf8f56e682295d2ae727f79b5c4aee5a83ecf23"
     },
     {
       "id": "line",
@@ -63,7 +63,7 @@
       "version": 1,
       "url": "telegram/telegram.json",
       "sigUrl": "telegram/telegram.json.sig",
-      "sha256": "ee7a6112bc6dd8950801f610588eafdd1179a3817749d613485d982ac09e9d90"
+      "sha256": "91d359d5ea8b9877682c1596fa14ad052ce73af8b930331b093582a10f9cc225"
     },
     {
       "id": "viber",
