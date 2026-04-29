@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "viber",
+  "background": {
+    "type": "gradient_v",
+    "colors": ["#7360F2", "#9B8AF5"]
+  },
+  "topLabel": {
+    "text": "Viber Audio Call",
+    "color": "#FFFFFF",
+    "sizeSp": 14,
+    "weight": "REGULAR"
+  },
+  "brandGlyph": {
+    "assetPath": "themes/viber/glyph.svg",
+    "sizeDp": 16
+  },
+  "avatar": {
+    "shape": "CIRCLE",
+    "sizeDp": 128,
+    "verticalBias": 0.22
+  },
+  "callerName": {
+    "text": "@caller_name",
+    "color": "#FFFFFF",
+    "sizeSp": 28,
+    "weight": "BOLD"
+  },
+  "callerSubtitle": {
+    "text": "Mobile",
+    "color": "#B3FFFFFF",
+    "sizeSp": 14,
+    "weight": "REGULAR"
+  },
+  "buttons": {
+    "layout": "HORIZONTAL_PAIR",
+    "gapDp": 64,
+    "verticalBiasFromBottom": 0.18,
+    "accept": {
+      "shape": "CIRCLE",
+      "sizeDp": 72,
+      "backgroundColor": "#00C851",
+      "iconAsset": "themes/_shared/ic_phone_accept.svg",
+      "iconColor": "#FFFFFF",
+      "animation": "PULSE"
+    },
+    "reject": {
+      "shape": "CIRCLE",
+      "sizeDp": 72,
+      "backgroundColor": "#E53935",
+      "iconAsset": "themes/_shared/ic_phone_reject.svg",
+      "iconColor": "#FFFFFF",
+      "animation": "NONE"
+    }
+  },
+  "connectedBgColor": "#7360F2"
+}

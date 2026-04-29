@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "meet",
+  "background": {
+    "type": "solid",
+    "color": "#FFFFFF"
+  },
+  "topLabel": {
+    "text": "Meet · ringing",
+    "color": "#FF5F6368",
+    "sizeSp": 14,
+    "weight": "REGULAR"
+  },
+  "brandGlyph": {
+    "assetPath": "themes/meet/glyph.svg",
+    "sizeDp": 16
+  },
+  "avatar": {
+    "shape": "CIRCLE",
+    "sizeDp": 132,
+    "verticalBias": 0.24
+  },
+  "callerName": {
+    "text": "@caller_name",
+    "color": "#FF202124",
+    "sizeSp": 28,
+    "weight": "MEDIUM"
+  },
+  "callerSubtitle": {
+    "text": "Google Meet",
+    "color": "#FF5F6368",
+    "sizeSp": 14,
+    "weight": "REGULAR"
+  },
+  "buttons": {
+    "layout": "HORIZONTAL_PAIR",
+    "gapDp": 64,
+    "verticalBiasFromBottom": 0.18,
+    "accept": {
+      "shape": "CIRCLE",
+      "sizeDp": 64,
+      "backgroundColor": "#1A73E8",
+      "iconAsset": "themes/_shared/ic_phone_accept.svg",
+      "iconColor": "#FFFFFF",
+      "animation": "PULSE"
+    },
+    "reject": {
+      "shape": "CIRCLE",
+      "sizeDp": 64,
+      "backgroundColor": "#EA4335",
+      "iconAsset": "themes/_shared/ic_phone_reject.svg",
+      "iconColor": "#FFFFFF",
+      "animation": "NONE"
+    }
+  },
+  "connectedBgColor": "#1A73E8"
+}

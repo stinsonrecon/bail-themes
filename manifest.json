@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "minAppVersion": "1.0.0",
+  "themes": [
+    {
+      "id": "discord",
+      "version": 1,
+      "url": "discord/discord.json",
+      "sigUrl": "discord/discord.json.sig",
+      "sha256": "eb9b1274af4f226482d4540e71400fcee77220daa20a099ae1a74d4601251b64"
+    },
+    {
+      "id": "instagram",
+      "version": 1,
+      "url": "instagram/instagram.json",
+      "sigUrl": "instagram/instagram.json.sig",
+      "sha256": "7afff1b3f1da9b94e21c4a0141d479276df2385ce7218fec0773d98423a39bc0"
+    },
+    {
+      "id": "line",
+      "version": 1,
+      "url": "line/line.json",
+      "sigUrl": "line/line.json.sig",
+      "sha256": "7f5dc0e37c10d7fef115f3e91fdb85e1d15615ec354e6edb30237e001cdfd224"
+    },
+    {
+      "id": "meet",
+      "version": 1,
+      "url": "meet/meet.json",
+      "sigUrl": "meet/meet.json.sig",
+      "sha256": "d71ed15b57e2db36fa40b3b05441a1c04f6defe53700624f2a4d38fab63cf2fa"
+    },
+    {
+      "id": "messenger",
+      "version": 1,
+      "url": "messenger/messenger.json",
+      "sigUrl": "messenger/messenger.json.sig",
+      "sha256": "a5889316e792af16fd7804b80ba01def3d28aa3e4ec002da515cb84acb8865f5"
+    },
+    {
+      "id": "skype",
+      "version": 1,
+      "url": "skype/skype.json",
+      "sigUrl": "skype/skype.json.sig",
+      "sha256": "e8e93565c89819c78a84f8c0111e779be60270235d896080f355e4bbe1c786a8"
+    },
+    {
+      "id": "slack",
+      "version": 1,
+      "url": "slack/slack.json",
+      "sigUrl": "slack/slack.json.sig",
+      "sha256": "eece7649a5ec3c4226ba9f2483e5967f4c58f70fbfe9b42fa31e53f2cfac3974"
+    },
+    {
+      "id": "teams",
+      "version": 1,
+      "url": "teams/teams.json",
+      "sigUrl": "teams/teams.json.sig",
+      "sha256": "554cd7ceb1d4afb70f8fdf258987c1b91957c409607214703bff4ef53a40e3a9"
+    },
+    {
+      "id": "telegram",
+      "version": 1,
+      "url": "telegram/telegram.json",
+      "sigUrl": "telegram/telegram.json.sig",
+      "sha256": "ee7a6112bc6dd8950801f610588eafdd1179a3817749d613485d982ac09e9d90"
+    },
+    {
+      "id": "viber",
+      "version": 1,
+      "url": "viber/viber.json",
+      "sigUrl": "viber/viber.json.sig",
+      "sha256": "76ddd02b5d05373ff7ed752cd32b82163fae48f110b8e7b2b1a56a8b8967a7a0"
+    },
+    {
+      "id": "wechat",
+      "version": 1,
+      "url": "wechat/wechat.json",
+      "sigUrl": "wechat/wechat.json.sig",
+      "sha256": "1089f042856b89b9626368181ad832b1ec8145dc4f9a082ab91d994e52f60681"
+    },
+    {
+      "id": "whatsapp",
+      "version": 1,
+      "url": "whatsapp/whatsapp.json",
+      "sigUrl": "whatsapp/whatsapp.json.sig",
+      "sha256": "a25729581b6727add2a6478463749ef74771d4102d9bf3c848ab5ad2841d4494"
+    },
+    {
+      "id": "zalo",
+      "version": 1,
+      "url": "zalo/zalo.json",
+      "sigUrl": "zalo/zalo.json.sig",
+      "sha256": "c19029c6e95511646b43102bf958d1c00de23b68fb281ed6b70c72bef70ff4e6"
+    },
+    {
+      "id": "zoom",
+      "version": 1,
+      "url": "zoom/zoom.json",
+      "sigUrl": "zoom/zoom.json.sig",
+      "sha256": "1723571c0f9f56ff1225001509430a61425474abc28f349d84cb3a4930541932"
+    }
+  ]
+}

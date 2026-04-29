@@ -1,0 +1,12 @@
+# Local signing key — NEVER commit
+private.key
+*.priv
+.bail-theme-signing/
+
+# Build artifacts (Blue Team zips, before push)
+*.zip.tmp
+build/
+
+# OS
+.DS_Store
+Thumbs.db
