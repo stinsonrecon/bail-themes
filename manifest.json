@@ -81,10 +81,10 @@
     },
     {
       "id": "whatsapp",
-      "version": 1,
+      "version": 2,
       "url": "whatsapp/whatsapp.json",
       "sigUrl": "whatsapp/whatsapp.json.sig",
-      "sha256": "a25729581b6727add2a6478463749ef74771d4102d9bf3c848ab5ad2841d4494"
+      "sha256": "820b7e4c6fb3f36e0b1b28a069ba07124b456c7973af7a7f72f93d03088e3506"
     },
     {
       "id": "zalo",

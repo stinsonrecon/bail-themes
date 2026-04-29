@@ -2,56 +2,61 @@
   "schemaVersion": 1,
   "id": "whatsapp",
   "background": {
-    "type": "gradient_v",
-    "colors": ["#075E54", "#0B7A6B"]
-  },
-  "topLabel": {
-    "text": "WhatsApp voice call",
-    "color": "#FFFFFF",
-    "sizeSp": 14,
-    "weight": "REGULAR"
+    "type": "solid",
+    "color": "#0F1217"
   },
   "brandGlyph": {
     "assetPath": "themes/whatsapp/glyph.svg",
-    "sizeDp": 16
+    "sizeDp": 14
   },
   "avatar": {
     "shape": "CIRCLE",
-    "sizeDp": 140,
-    "verticalBias": 0.22
+    "sizeDp": 190,
+    "verticalBias": 0.47
   },
   "callerName": {
     "text": "@caller_name",
-    "color": "#FFFFFF",
-    "sizeSp": 28,
+    "color": "#FFFFFFFF",
+    "sizeSp": 30,
     "weight": "BOLD"
   },
   "callerSubtitle": {
-    "text": "@theme_subtitle_mobile",
-    "color": "#B0BEC5",
+    "text": "WhatsApp voice call",
+    "color": "#B0FFFFFF",
     "sizeSp": 14,
     "weight": "REGULAR"
   },
   "buttons": {
-    "layout": "HORIZONTAL_PAIR",
-    "gapDp": 64,
-    "verticalBiasFromBottom": 0.18,
-    "accept": {
-      "shape": "CIRCLE",
-      "sizeDp": 72,
-      "backgroundColor": "#25D366",
-      "iconAsset": "themes/_shared/ic_phone_accept.svg",
-      "iconColor": "#FFFFFF",
-      "animation": "PULSE"
-    },
+    "layout": "HORIZONTAL_TRIPLE",
+    "gapDp": 24,
+    "verticalBiasFromBottom": 0.10,
     "reject": {
       "shape": "CIRCLE",
-      "sizeDp": 72,
-      "backgroundColor": "#E53935",
-      "iconAsset": "themes/_shared/ic_phone_reject.svg",
-      "iconColor": "#FFFFFF",
+      "sizeDp": 64,
+      "backgroundColor": "#D72E41",
+      "iconAsset": "themes/whatsapp/ic_reject.svg",
+      "iconColor": "#FFFFFFFF",
+      "labelText": "Từ chối",
+      "animation": "NONE"
+    },
+    "accept": {
+      "shape": "CIRCLE",
+      "sizeDp": 64,
+      "backgroundColor": "#52A66A",
+      "iconAsset": "themes/whatsapp/ic_accept.svg",
+      "iconColor": "#FFFFFFFF",
+      "labelText": "Vuốt lên để chấp nhận",
+      "animation": "PULSE"
+    },
+    "tertiary": {
+      "shape": "CIRCLE",
+      "sizeDp": 64,
+      "backgroundColor": "#2D2D2D",
+      "iconAsset": "themes/whatsapp/ic_message.svg",
+      "iconColor": "#FFFFFFFF",
+      "labelText": "Nhắn tin",
       "animation": "NONE"
     }
   },
-  "connectedBgColor": "#075E54"
+  "connectedBgColor": "#0F1217"
 }
