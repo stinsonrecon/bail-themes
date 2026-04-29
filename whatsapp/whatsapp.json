@@ -18,9 +18,9 @@
     "verticalBias": 0.47,
     "placeholder": {
       "type": "INITIAL_LETTER",
-      "bgColor": "#D4E4F8",
+      "bgColor": "#DDEEFF",
       "fgColor": "#2761C5",
-      "fontSizeRatio": 0.45
+      "fontSizeRatio": 0.41
     }
   },
   "callerName": {
@@ -31,7 +31,7 @@
   },
   "callerInfo": {
     "position": "TOP",
-    "verticalBias": 0.145,
+    "verticalBias": 0.12,
     "primary": {
       "text": "@caller_number",
       "color": "#FFFFFFFF",
