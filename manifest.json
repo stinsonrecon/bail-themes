@@ -74,17 +74,17 @@
     },
     {
       "id": "wechat",
-      "version": 1,
+      "version": 2,
       "url": "wechat/wechat.json",
       "sigUrl": "wechat/wechat.json.sig",
-      "sha256": "1089f042856b89b9626368181ad832b1ec8145dc4f9a082ab91d994e52f60681"
+      "sha256": "f1f9cde64255e5dea93a6a237e4750934ecfd5b16c17b76b2ba446366d089b7b"
     },
     {
       "id": "whatsapp",
-      "version": 5,
+      "version": 6,
       "url": "whatsapp/whatsapp.json",
       "sigUrl": "whatsapp/whatsapp.json.sig",
-      "sha256": "b93144ea22534b0bf6bc809724ceb060246d1d0108fd8a4b952de6c84572bb33"
+      "sha256": "c0be1a7008ca0ff199e1840e2ebee665f6a8e0f3fbb9dfc1e7927c460666de5a"
     },
     {
       "id": "zalo",

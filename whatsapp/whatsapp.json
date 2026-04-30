@@ -67,7 +67,7 @@
       "backgroundColor": "#D72E41",
       "iconAsset": "themes/whatsapp/ic_reject.svg",
       "iconColor": "#FFFFFFFF",
-      "labelText": "Từ chối",
+      "labelText": "@theme_btn_decline",
       "animation": "NONE",
       "gesture": "TAP"
     },
@@ -77,7 +77,7 @@
       "backgroundColor": "#52A66A",
       "iconAsset": "themes/whatsapp/ic_accept.svg",
       "iconColor": "#FFFFFFFF",
-      "labelText": "Vuốt lên để chấp nhận",
+      "labelText": "@theme_btn_swipe_up_to_accept",
       "animation": "PULSE",
       "gesture": "SWIPE_UP",
       "swipeThresholdDp": 80
@@ -88,7 +88,7 @@
       "backgroundColor": "#2D2D2D",
       "iconAsset": "themes/whatsapp/ic_message.svg",
       "iconColor": "#FFFFFFFF",
-      "labelText": "Nhắn tin",
+      "labelText": "@theme_btn_message",
       "animation": "NONE",
       "gesture": "TAP"
     }
