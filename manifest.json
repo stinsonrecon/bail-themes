@@ -88,10 +88,10 @@
     },
     {
       "id": "zalo",
-      "version": 1,
+      "version": 2,
       "url": "zalo/zalo.json",
       "sigUrl": "zalo/zalo.json.sig",
-      "sha256": "c19029c6e95511646b43102bf958d1c00de23b68fb281ed6b70c72bef70ff4e6"
+      "sha256": "679d2e5b4f40f8e14b303391e42b5e11f291e9c4035ce839f8e285b637eed120"
     },
     {
       "id": "zoom",
